@@ -38,13 +38,16 @@ $ git clone https://github.com/creativeautomaton/aperture-css.git
 
 Full example:
 ```html
-<h1 class="apertured infinite ghost">Example</h1>
+<div class="apertured infinite ghost" >
+    <!--  Example image for background can be <img> or a css background image. -->
+    <img src="/example.jpg" />
+</div>
 ```
 
 [Check out all the animations here!](https://creativeautomaton.github.io/aperture-css/)
 
 ## Usage
-To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
+To use aperture.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `apertured` to an element with a background image, along with any of the animation names. That's it! You've got a CSS animated loop video effect. Kool Beans!
 
 ```html
 <head>
@@ -58,27 +61,27 @@ or use the version hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)
 </head>
 ```
 
-You can do a whole bunch of other stuff with animate.css when you combine it with jQuery or add your own CSS rules. Dynamically add animations using jQuery with ease:
+You can build video animations from aperture.css when you combine it with jQuery or add your own CSS rules. Dynamically add video animations using jQuery with ease:
 
 ```javascript
-$('#yourElement').addClass('animated bounceOutLeft');
+$('#yourElement').addClass('apertured ghost');
 ```
 
-You can also detect when an animation ends:
+You can also detect when an Aperture Video animation ends:
 
-<!--
+
 Before you make changes to this file, you should know that $('#yourElement').one() is *NOT A TYPO*
 
 http://api.jquery.com/one/
--->
+
 
 ```javascript
 $('#yourElement').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', doSomething);
 ```
 
-[View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) on how to use Animate.css with jQuery here.
+<!-- [View a video tutorial](https://www.youtube.com/watch?v=CBQGl6zokMs) on how to use Animate.css with jQuery here. -->
 
-**Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
+<!-- **Note:** `jQuery.one()` is used when you want to execute the event handler at most *once*. More information [here](http://api.jquery.com/one/).
 
 You can also extend jQuery to add a function that does it all for you:
 
@@ -134,10 +137,12 @@ Next, run `gulp` to compile your custom builds. For example, if you want only so
   "wobble": true,
   "jello":true
 }
-```
+``` -->
 
 ## License
-Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+Aperture.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
 
 ## Contributing
 Pull requests are the way to go here. I apologise in advance for the slow action on pull requests and issues. I only have two rules for submitting a pull request: match the naming convention (camelCase, categorised [fades, bounces, etc]) and let us see a demo of submitted animations in a [pen](http://codepen.io). That last one is important.
+
+Graciasly copied from animate.css git repo, Thanks.
