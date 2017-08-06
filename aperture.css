@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+/*!
+ * aperture.css -http://creativeautomaton.com/aperture-css/
+ * Version - 0.0.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2017 Creative Automaton
+ */
+
+.apertured {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.apertured.infinite {
+  animation-iteration-count: infinite;
+}
+
+.apertured.ghost {
+  animation-duration: 2s;
+}
