@@ -4,17 +4,16 @@
   "description": "Video effects animation library using CSS",
   "main": "gulpfile.js",
   "repository": {
-  "type": "git",
-  "url": "git://github.com/creativeautomaton/aperture-css.git"
-},
+    "type": "git",
+    "url": "git://github.com/creativeautomaton/aperture-css.git"
+  },
   "dependencies": {
     "gulp": "^3.9.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-batch": "^1.0.5", 
-    "gulp-ruby-sass": "^2.1.1",
-    "pump": "^1.0.2"
+    "gulp-clean-css": "^3.7.0",
+    "gulp-sourcemaps": "^2.6.0"
   },
   "author": "Zachary Kraft",
   "license": "ISC"
