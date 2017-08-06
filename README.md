@@ -1,4 +1,4 @@
-# aperture-css
+# Aperture CSS
 Video effects animation library using CSS.
 
 [![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
@@ -8,15 +8,10 @@ Video effects animation library using CSS.
 
 ## Installation
 
-To install via Bower, simply do the following:
+To install, simply do the following:
 
 ```bash
-$ bower install animate.css --save
-```
-or you can install via npm:
-
-```bash
-$ npm install animate.css --save
+$ git clone https://github.com/creativeautomaton/aperture-css.git
 ```
 
 ## Basic Usage
@@ -24,115 +19,29 @@ $ npm install animate.css --save
 
   ```html
   <head>
-    <link rel="stylesheet" href="animate.min.css">
+    <link rel="stylesheet" href="aperture.min.css">
   </head>
   ```
-  Instead of installing you may use the remote version (hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)):
-  ```html
-  <head>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-  </head>
-  ```
-  You may [generate a SRI hash](https://www.srihash.org/) of that particular version and then use it to ensure the file's integrity; also you can make anonymous requests to CDN by setting the corresponding [`crossorigin`](https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_settings_attributes) attribute:
-  ```html
-  <head>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
-    integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
-    crossorigin="anonymous">
-  </head>
-  ```
-2. Add the class `animated` to the element you want to animate.
+
+2. Add the class `apertured` to the element you want to animate.
  You may also want to include the class `infinite` for an infinite loop.
 
 3. Finally you need to add one of the following classes:
 
 | ﻿Class Name |
 |--------------------|
-| `bounce` |
+| `ghost` |
 | `flash` |
-| `pulse` |
-| `rubberBand` |
-| `shake` |
-| `headShake` |
-| `swing` |
-| `tada` |
-| `wobble` |
-| `jello` |
-| `bounceIn` |
-| `bounceInDown` |
-| `bounceInLeft` |
-| `bounceInRight` |
-| `bounceInUp` |
-| `bounceOut` |
-| `bounceOutDown` |
-| `bounceOutLeft` |
-| `bounceOutRight` |
-| `bounceOutUp` |
-| `fadeIn` |
-| `fadeInDown` |
-| `fadeInDownBig` |
-| `fadeInLeft` |
-| `fadeInLeftBig` |
-| `fadeInRight` |
-| `fadeInRightBig` |
-| `fadeInUp` |
-| `fadeInUpBig` |
-| `fadeOut` |
-| `fadeOutDown` |
-| `fadeOutDownBig` |
-| `fadeOutLeft` |
-| `fadeOutLeftBig` |
-| `fadeOutRight` |
-| `fadeOutRightBig` |
-| `fadeOutUp` |
-| `fadeOutUpBig` |
-| `flipInX` |
-| `flipInY` |
-| `flipOutX` |
-| `flipOutY` |
-| `lightSpeedIn` |
-| `lightSpeedOut` |
-| `rotateIn` |
-| `rotateInDownLeft` |
-| `rotateInDownRight` |
-| `rotateInUpLeft` |
-| `rotateInUpRight` |
-| `rotateOut` |
-| `rotateOutDownLeft` |
-| `rotateOutDownRight` |
-| `rotateOutUpLeft` |
-| `rotateOutUpRight` |
-| `hinge` |
-| `jackInTheBox` |
-| `rollIn` |
-| `rollOut` |
-| `zoomIn` |
-| `zoomInDown` |
-| `zoomInLeft` |
-| `zoomInRight` |
-| `zoomInUp` |
-| `zoomOut` |
-| `zoomOutDown` |
-| `zoomOutLeft` |
-| `zoomOutRight` |
-| `zoomOutUp` |
-| `slideInDown` |
-| `slideInLeft` |
-| `slideInRight` |
-| `slideInUp` |
-| `slideOutDown` |
-| `slideOutLeft` |
-| `slideOutRight` |
-| `slideOutUp` |
+| `jitter` |
+| `focus-blur` |
+
 
 Full example:
 ```html
-<h1 class="animated infinite bounce">Example</h1>
+<h1 class="apertured infinite ghost">Example</h1>
 ```
 
-[Check out all the animations here!](https://daneden.github.io/animate.css/)
+[Check out all the animations here!](https://creativeautomaton.github.io/aperture-css/)
 
 ## Usage
 To use animate.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `animated` to an element, along with any of the animation names. That's it! You've got a CSS animated element. Super!
