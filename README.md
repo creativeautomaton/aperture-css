@@ -42,7 +42,7 @@ Full example:
 </div>[-]
 ```
 
-[Check out all the animations here!](https://creativeautomaton.com/aperture-css/)
+[Check out all the animations here!](http://creativeautomaton.com/aperture-css/)
 
 ## Usage
 To use aperture.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `apertured` to an element with a background image, along with any of the animation names. That's it! You've got a CSS animated loop video effect. Kool Beans!
