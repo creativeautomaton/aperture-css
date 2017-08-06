@@ -1,10 +1,8 @@
 # Aperture CSS
 Video effects animation library using CSS.
 
-[![GitHub release](https://img.shields.io/github/release/daneden/animate.css.svg)](https://github.com/daneden/animate.css/releases) [![Build Status](https://travis-ci.org/WarenGonzaga/animate.css.svg?branch=master)](https://travis-ci.org/WarenGonzaga/animate.css) [![devDependencies Status](https://david-dm.org/WarenGonzaga/animate.css/dev-status.svg)](https://david-dm.org/WarenGonzaga/animate.css?type=dev) [![chat](https://img.shields.io/badge/chat-gitter-green.svg)](https://gitter.im/animate-css/Lobby)
-*Just-add-water CSS animation*
 
-`animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
+`Aperture.css` is a bunch of cool, fun, and cross-browser background animations for you to use in your projects. Great for emphasis, home pages, sliders.
 
 ## Installation
 
@@ -41,25 +39,14 @@ Full example:
 <div class="apertured infinite ghost" >
     <!--  Example image for background can be <img> or a css background image. -->
     <img src="/example.jpg" />
-</div>
+</div>[-]
 ```
 
-[Check out all the animations here!](https://creativeautomaton.github.io/aperture-css/)
+[Check out all the animations here!](https://creativeautomaton.com/aperture-css/)
 
 ## Usage
 To use aperture.css in your website, simply drop the stylesheet into your document's `<head>`, and add the class `apertured` to an element with a background image, along with any of the animation names. That's it! You've got a CSS animated loop video effect. Kool Beans!
 
-```html
-<head>
-  <link rel="stylesheet" href="animate.min.css">
-</head>
-```
-or use the version hosted by [CDNJS](https://cdnjs.com/libraries/animate.css)
-```html
-<head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-</head>
-```
 
 You can build video animations from aperture.css when you combine it with jQuery or add your own CSS rules. Dynamically add video animations using jQuery with ease:
 
